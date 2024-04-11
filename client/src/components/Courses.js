@@ -6,7 +6,7 @@ export default function Courses(){
 
     return (
         <div>
-            <div>New</div>
+            <div>Newly</div>
         <h1>Courses:</h1>
             { store.courses && store.courses.map((course)=>{
             return  <Course course = {course} key={course._id}/>
